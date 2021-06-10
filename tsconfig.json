@@ -15,10 +15,10 @@
         "strict": true,
         "baseUrl": ".",
         "paths": {
-            "@core/*": [
-                "packages/core/*"
+            "@myproject/*": [
+                "packages/*/src"
             ]
-        }
+        },
     },
     "extends": "expo/tsconfig.base"
 }
