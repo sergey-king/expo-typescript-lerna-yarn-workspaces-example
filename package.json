@@ -10,12 +10,12 @@
     "lint": "eslint --fix --ext js --ext jsx --ext json .",
     "format": "prettier **/*.{ts,js,tsx,jsx} --write"
   },
-  "workspaces": [
-    "packages/*"
-  ],
-  "cacheDirectories": [
-    ".cache"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+  },
   "devDependencies": {
     "expo-yarn-workspaces": "^1.5.1",
     "lerna": "^4.0.0"

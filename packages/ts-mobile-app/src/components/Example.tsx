@@ -5,6 +5,6 @@ import { ErrorReportingContext } from '../../../core/contexts'
 
 export default function Example() {
   const { recordError } = useContext(ErrorReportingContext)
-  return <Button title="TEST" onPress={() => recordError(new Error('MY WEB APP ERROR'))} />
+  return <Button title="TEST" onPress={() => recordError(new Error('MY MOBILE APP ERROR'))} />
 }
 
