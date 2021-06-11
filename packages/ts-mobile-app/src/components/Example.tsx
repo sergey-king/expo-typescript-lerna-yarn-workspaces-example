@@ -1,7 +1,7 @@
 import React from 'react'
 import { useContext } from 'react'
 import { Button } from 'react-native'
-import { ErrorReportingContext } from ""
+import { ErrorReportingContext } from "core/contexts"
 
 export default function Example() {
   const { recordError } = useContext(ErrorReportingContext)

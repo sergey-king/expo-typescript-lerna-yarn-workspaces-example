@@ -13,8 +13,7 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ],
-    "nohoist": ["**/react-native", "**/react-native/**"]
+    ]
   },
   "devDependencies": {
     "expo-yarn-workspaces": "^1.5.1",

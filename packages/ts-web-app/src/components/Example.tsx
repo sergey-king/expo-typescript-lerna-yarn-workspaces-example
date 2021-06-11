@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import { ErrorReportingContext } from "@project/core"
+import { ErrorReportingContext } from "core/contexts"
 
 export default function Example() {
   const { recordError } = useContext(ErrorReportingContext)
